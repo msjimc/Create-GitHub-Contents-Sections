@@ -22,7 +22,7 @@ When a folder has been selected, the names of the files will appear in the drop-
 
 ![Figure 2](images/Figure2.jpg)
 
-*Figure 2: The folder will contain a list of *.md files.*
+*Figure 2: The folder will contain a list of \*.md files.*
 
 ---
 
