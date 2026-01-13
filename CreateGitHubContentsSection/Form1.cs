@@ -149,7 +149,14 @@ namespace CreateGitHubContentsSection
         private void btnAdd_Click(object sender, EventArgs e)
         {
             if (cboList.SelectedIndex > 0)
-            { lbIgnore.Items.Add(cboList.SelectedItem.ToString()); }
+            {
+                string fileName = cboList.SelectedItem.ToString();
+                if (lbIgnore.Items.Contains(fileName) == false)
+                { lbIgnore.Items.Add(fileName); }
+                else
+                { lbIgnore.Items.Remove(fileName); }
+            
+            }
         }
     }
 }
