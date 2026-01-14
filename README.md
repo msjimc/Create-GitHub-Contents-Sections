@@ -1,6 +1,7 @@
 ## List of contents
 - [CreateGitHubContentsSection](README.md#creategithubcontentssection)
   - [Downloading the program](README.md#downloading-the-program)
+    - [Download folder](Download/README.md)
   - [Selecting a folder](README.md#selecting-a-folder)
   - [Selecting the right folder](README.md#selecting-the-right-folder)
   - [Selecting and ordering the individual files to be included](README.md#selecting-and-ordering-the-individual-files-to-be-included)
