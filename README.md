@@ -1,6 +1,21 @@
+## List of contents
+- [CreateGitHubContentsSection](README.md#creategithubcontentssection)
+  - [Downloading the program](README.md#downloading-the-program)
+  - [Selecting a folder](README.md#selecting-a-folder)
+  - [Selecting the right folder](README.md#selecting-the-right-folder)
+  - [Selecting and ordering the individual files to be included](README.md#selecting-and-ordering-the-individual-files-to-be-included)
+  - [Excluding a file from the contents file](README.md#excluding-a-file-from-the-contents-file)
+  - [Making the contents file](README.md#making-the-contents-file)
+  - [Editing the contents file](README.md#editing-the-contents-file)
+
+
 # CreateGitHubContentsSection
 
 ___CreateGitHubContentsSection___ reads all the *.md GitHub markdown files in a folder and its subfolders and collects all their section headings. These are then used to make a section contents file containing links to each of the sections in the scanned *.md files. The contents file can be used as is, or sections can be copied and pasted into the individual user guide files.
+
+## Downloading the program
+
+The precompiled program can be downloaded from [here](Download/README.md).
 
 ## Selecting a folder 
 
@@ -60,5 +75,7 @@ Once the files have been added in the required order, press the __Make__ button 
 
 ---
 
+## Editing the contents file
 
+The contents files consists of a series of sections, each one derived from and named after a file. Since these sections are named after a file, their names may not be suitable as display names and may need to be edited by opening the file in a text editor like __NotePad++__ or __Visual Code__.
 
